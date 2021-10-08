@@ -96,3 +96,4 @@ class Branch(object):
     def __lt__(self, other):
         return self.current_block < other.current_block
 
+

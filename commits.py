@@ -39,3 +39,4 @@ class Commits(object):
                 if self.show_progress:
                     print('{} / {}'.format(max_branch.call_nums, len(max_branch)))
                 return commit, max_branch.name
+
